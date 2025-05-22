@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    // ...existing code...
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+    // ...existing code...
+  }
+  // ...existing code...
+}
