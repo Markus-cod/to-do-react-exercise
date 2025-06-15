@@ -13,7 +13,7 @@ Add new tasks to your to-do list
 
 - React
 - React Hooks (useState)
-- CSS for styling
+- Tailwind CSS for styling
 - HTML
 
 ## Getting Started
@@ -24,19 +24,29 @@ Add new tasks to your to-do list
 
 ### Installation
 1. Clone the repository:
-```git clone https://github.com/Markus-cod/to-do-react-exercise.git```
+```
+git clone https://github.com/Markus-cod/to-do-react-exercise.git
+```
 
 2. Navigate to the project directory:
-```cd to-do-react-exercise```
+```
+cd to-do-react-exercise
+```
 
 3. Install dependencies:
-``npm install``
+```
+npm install
+```
 
 4. Start the development server:
-``npm start``
+```
+npm start
+```
 
 5. Open your browser and visit:
-```http://localhost:3000```
+```
+http://localhost:3000
+```
 
 # Usage
 1. Type a task in the input field and press Enter or click the "Add" button to add it to your list.
@@ -48,9 +58,9 @@ Add new tasks to your to-do list
 Contributions are welcome! If you'd like to improve this project, please follow these steps:
 
 1. Fork the repository
-2. Create a new branch (git checkout -b feature/your-feature)
-3. Commit your changes (git commit -m 'Add some feature')
-4. Push to the branch (git push origin feature/your-feature)
+2. Create a new branch (```git checkout -b feature/your-feature```)
+3. Commit your changes (```git commit -m 'Add some feature'```)
+4. Push to the branch (```git push origin feature/your-feature```)
 5. Open a Pull Request
 
 # License
