@@ -6,14 +6,14 @@ Add new tasks to your to-do list
 
 - Mark tasks as completed
 - Delete tasks you no longer need
-- Filter tasks by status (All, Active, Completed)
 - Responsive design that works on different screen sizes
+- Light and dark styles
 
 ## Technologies Used
-
 - React
-- React Hooks (useState)
+- React Hooks (useState, useEffect)
 - Tailwind CSS for styling
+- Framer motion for animations
 - HTML
 
 ## Getting Started
@@ -40,19 +40,19 @@ npm install
 
 4. Start the development server:
 ```
-npm start
+npm run dev
 ```
 
 5. Open your browser and visit:
 ```
-http://localhost:3000
+http://localhost:5173
 ```
 
 # Usage
-1. Type a task in the input field and press Enter or click the "Add" button to add it to your list.
+1. Type a task in the input field and press Enter or click the "+" button to add it to your list.
 2. Click the checkbox next to a task to mark it as completed.
 3. Click the delete button (🗑️) to remove a task from your list.
-4. Use the filter buttons at the bottom to view all tasks, only active tasks, or only completed tasks.
+4. View number of completed tasks at the bottom.
 
 # Contributing
 Contributions are welcome! If you'd like to improve this project, please follow these steps:
